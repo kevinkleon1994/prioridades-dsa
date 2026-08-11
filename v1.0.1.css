@@ -1,0 +1,108 @@
+/* Prioridades DSA v1.0.1
+   Complemento do styles.css original.
+   Não redefine o layout-base do sistema. */
+
+.nav-priority-combined{
+  width:20px;
+  height:20px;
+  flex:0 0 20px;
+  object-fit:contain;
+  vertical-align:middle;
+  margin-right:8px;
+}
+
+/* Solicitação v1.0.1: maior legibilidade no detalhamento. */
+.criterion-detail-v7 .instruction-grid-v7 p{
+  font-size:1rem;
+  line-height:1.65;
+}
+.criterion-detail-v7 .instruction-grid-v7 span,
+.criterion-detail-v7 .action-plan-v7 > span{
+  font-size:.9rem;
+  font-weight:800;
+}
+.criterion-detail-v7 .action-plan-v7 textarea{
+  font-size:1rem;
+  line-height:1.6;
+}
+
+.profile-photo-v101{
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+  margin-bottom:8px;
+}
+
+.evidence-priority-group-v101{margin:0 0 28px}
+.evidence-priority-group-v101 > h3{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin:0 0 12px;
+}
+.evidence-priority-group-v101 > h3 img{width:26px;height:26px}
+.evidence-card img{display:block;width:100%;height:auto;object-fit:cover}
+.evidence-image-fallback-v101{
+  padding:30px;
+  text-align:center;
+  background:#eef3f5;
+}
+
+.difficulty-checks-v101,
+.officer-checks-v101,
+.module-checks-v101{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  gap:10px;
+}
+.check-v101{
+  display:flex;
+  gap:8px;
+  align-items:flex-start;
+  padding:10px;
+  border:1px solid #dce5ea;
+  border-radius:10px;
+}
+
+.report-difficulties-v101,
+.report-history-v101{margin-top:18px}
+.report-history-list-v101{display:grid;gap:12px}
+.report-history-item-v101{
+  border:1px solid #dce5ea;
+  border-radius:14px;
+  padding:14px;
+  display:grid;
+  gap:8px;
+}
+.report-history-actions-v101{display:flex;flex-wrap:wrap;gap:8px}
+.report-history-actions-v101 button{padding:8px 12px;border-radius:9px}
+.report-edit-text-v101{min-height:55vh}
+
+.church-officers-v101 > span,
+.user-modules-v101 > span{
+  display:block;
+  margin-bottom:8px;
+  font-weight:600;
+}
+
+.access-scope-v101{font-size:.8rem;opacity:.75}
+.dev-only.hidden{display:none !important}
+
+/* Ao recolher, mantém a mecânica visual do styles.css original.
+   Apenas adapta foto e o novo SVG. */
+.sidebar-collapsed .profile-photo-v101{
+  margin:0;
+  width:38px;
+  height:38px;
+}
+.sidebar-collapsed .nav-priority-combined{
+  margin-right:0;
+}
+
+@media(max-width:700px){
+  .difficulty-checks-v101,
+  .officer-checks-v101,
+  .module-checks-v101{grid-template-columns:1fr}
+}
