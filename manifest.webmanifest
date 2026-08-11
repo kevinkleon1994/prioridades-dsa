@@ -1,0 +1,30 @@
+{
+  "name": "Prioridades Estratégicas | DSA",
+  "short_name": "Prioridades DSA",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#eef5f6",
+  "theme_color": "#102333",
+  "description": "Sistema de planejamento estratégico para igrejas adventistas.",
+  "icons": [
+    {
+      "src": "./assets/icone_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icone_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "version": "1.0.0"
+}
