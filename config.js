@@ -5,5 +5,5 @@ window.APP_CONFIG = {
   UNION: "União Norte Brasileira",
   DIVISION: "Divisão Sul-Americana",
   REPOSITORY: "kevinkleon1994/prioridades-estrategicas",
-  VERSION: "1.0.3"
+  VERSION: "1.0.4"
 };
